@@ -1,8 +1,6 @@
 import React from 'react';
 import { TouchableWithoutFeedback } from 'react-native';
-import { DangerZone } from 'expo';
-
-const { Lottie } = DangerZone;
+import Lottie from 'lottie-react-native';
 
 export default class LikeIcon extends React.Component {
   componentDidUpdate(prevProps) {
