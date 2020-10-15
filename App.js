@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StatusBar, StyleSheet, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <StatusBar barStyle="dark-content" />
         <HomeScreen />
       </View>
     );
